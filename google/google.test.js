@@ -23,7 +23,7 @@ test('I can search Google', async () => {
     let searchBar = await driver.findElement(By.name('q'))
     
     // This time you'll just finish this string with something you want to search on Google, make sure you leanve that \n !
-    await searchBar.sendKeys('Dallas Coding Schools\n')
+    await searchBar.sendKeys('dogs\n')
 
     // This line will pause our automation so you can see your search!
     await driver.sleep(2000)
